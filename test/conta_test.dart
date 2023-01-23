@@ -47,6 +47,6 @@ void main() {
     expect(conta.saldo, -2100.00);
 
     conta.tranferir(400.00);
-    expect(conta.saldo, -2500.00);
+    expect(conta.saldo, -250.00);
   });
 }
